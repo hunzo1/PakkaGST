@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "version": "2026.11.1",
+    "last_checked": "2026-11-17",
+    "note": "Starter set of common SAC/HSN codes for Indian freelancers, compiled from publicly published CBIC GST rate schedules. GST rates change periodically — verify against CBIC (cbic-gst.gov.in) before relying on this for a real filing. Run 'Check for GST Rate Table Updates' from the main menu to pull the latest version of this file from the project's GitHub repo.",
+    "update_url": "https://raw.githubusercontent.com/farymm/PakkaGst/main/hsn_rates.json"
+  },
+  "codes": [
+    {"code": "998314", "description": "IT design and development services (software/web/app dev)", "rate": 18, "category": "IT & Software"},
+    {"code": "998313", "description": "IT consulting and support services", "rate": 18, "category": "IT & Software"},
+    {"code": "998315", "description": "Hosting and IT infrastructure provisioning services", "rate": 18, "category": "IT & Software"},
+    {"code": "998316", "description": "IT infrastructure and network management services", "rate": 18, "category": "IT & Software"},
+    {"code": "998391", "description": "Specialty design services (graphic design, UI/UX, branding)", "rate": 18, "category": "Design"},
+    {"code": "998393", "description": "Photography and videography services, including editing", "rate": 18, "category": "Creative"},
+    {"code": "998397", "description": "Translation and interpretation services", "rate": 18, "category": "Writing & Language"},
+    {"code": "998399", "description": "Other professional, technical and business services, n.e.c.", "rate": 18, "category": "General / Other"},
+    {"code": "998431", "description": "Market research and public opinion polling services", "rate": 18, "category": "Marketing"},
+    {"code": "999431", "description": "Advertising services and provision of advertising space/time", "rate": 18, "category": "Marketing"},
+    {"code": "998362", "description": "Social media and digital marketing management services", "rate": 18, "category": "Marketing"},
+    {"code": "998213", "description": "Legal documentation and certification services", "rate": 18, "category": "Legal & Compliance"},
+    {"code": "998222", "description": "Accounting, bookkeeping and auditing services", "rate": 18, "category": "Finance & Accounting"},
+    {"code": "999599", "description": "Other professional, scientific and technical services, n.e.c.", "rate": 18, "category": "General / Other"},
+    {"code": "998599", "description": "Other support services (data entry, virtual assistant, admin support)", "rate": 18, "category": "Admin & Support"},
+    {"code": "999293", "description": "Content writing, copywriting and editorial services", "rate": 18, "category": "Writing & Language"},
+    {"code": "9985", "description": "Support services (general heading)", "rate": 18, "category": "Admin & Support"}
+  ]
+}

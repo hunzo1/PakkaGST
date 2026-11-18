@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PakkaGst"
+version = "0.1.0"
+description = "A GST-compliant invoicing CLI for Indian freelancers. Fully local, no subscription, no cloud."
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+    "questionary>=2.0",
+    "rich>=13.0",
+    "qrcode>=7.4",
+    "pypng>=0.20220715.0",
+    "fpdf2>=2.7",
+]
+
+[project.scripts]
+pakkagst = "PakkaGst:main"
+
+[tool.setuptools]
+py-modules = ["PakkaGst"]
